@@ -1,6 +1,6 @@
 import { ExternalLink, NavLink } from "../lib/types";
 
-export const GITHUB = "https://github.com/PotatoAim11518";
+export const GITHUB = "https://github.com/whuang3015";
 export const LINKEDIN = "https://www.linkedin.com/in/wilson-huang-39198039/";
 
 // Nav bar transition scroll threshold
