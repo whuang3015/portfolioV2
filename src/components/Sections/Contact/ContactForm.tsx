@@ -53,7 +53,7 @@ export default function ContactForm() {
           form.current as HTMLFormElement,
           {
             publicKey: VITE_EMAIL_PUBLIC_KEY,
-          }
+          },
         );
         setStatus("success");
         form.current?.reset();
@@ -108,11 +108,11 @@ export default function ContactForm() {
             required
             placeholder="Type your message here..."
             className={clsx(
-              "px-4 py-4 min-h-[278px] w-full text-xl lg:text-base font-light focus:ring-2 focus:bg-white/10 bg-indigo-300/10 rounded-md outline-none caret-indigo-300 caret transition",
+              "px-4 py-4 min-h-[278px] min-w-[90vw] lg:min-w-[50vw] w-full text-xl lg:text-base font-light focus:ring-2 focus:bg-white/10 bg-indigo-300/10 rounded-md outline-none caret-indigo-300 caret transition",
               {
                 "ring-red-900": characterCount >= MAX_CHARACTER_COUNT,
                 "ring-sky-500": characterCount < MAX_CHARACTER_COUNT,
-              }
+              },
             )}
           />
           <div className="flex justify-between text-2xl lg:text-xl tracking-wider italic transition pl-2">
@@ -153,7 +153,7 @@ export default function ContactForm() {
           {
             "btn-loading animate-glow": status === "sending",
             "form-btn btn-hover": status !== "sending",
-          }
+          },
         )}
       >
         {status === "sending" ? (
