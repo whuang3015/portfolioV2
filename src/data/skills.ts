@@ -31,7 +31,27 @@ export const OTHER_SKILLS: Skill[] = [
     icon: "devicon:vite",
     link: "https://vite.dev/",
   },
+  {
+    name: "Vercel",
+    icon: "simple-icons:vercel",
+    link: "https://vercel.com/",
+  },
+  {
+    name: "Supabase",
+    icon: "devicon:supabase",
+    link: "https://supabase.com/",
+  },
+  {
+    name: "Cloudflare",
+    icon: "devicon:cloudflare",
+    link: "https://www.cloudflare.com/",
+  },
   { name: "Figma", icon: "devicon:figma", link: "https://www.figma.com/" },
+  {
+    name: "Zod",
+    icon: "simple-icons:zod",
+    link: "https://zod.dev/",
+  },
   {
     name: "Storybook",
     icon: "logos:storybook-icon",
@@ -43,14 +63,14 @@ export const OTHER_SKILLS: Skill[] = [
     link: "https://www.heroku.com/",
   },
   {
-    name: "Vercel",
-    icon: "simple-icons:vercel",
-    link: "https://vercel.com/",
-  },
-  {
     name: "Framer Motion",
     icon: "teenyicons:framer-outline",
     link: "https://www.framer.com/motion/",
+  },
+  {
+    name: "BetterAuth",
+    icon: "simple-icons:betterauth",
+    link: "https://better-auth.com/",
   },
   {
     name: "Styled Components",
@@ -69,7 +89,7 @@ export const OTHER_SKILLS: Skill[] = [
   },
   {
     name: "Zustand",
-    icon: "",
+    icon: "devicon:zustand",
     link: "https://zustand.docs.pmnd.rs/getting-started/introduction",
   },
   { name: "Socket.io", icon: "logos:socket-io", link: "https://socket.io/" },

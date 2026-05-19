@@ -11,7 +11,7 @@ export default function CoreSkills() {
     { opacity: 1, scale: 1 },
     0.05,
     0.5,
-    true
+    true,
   );
 
   return (

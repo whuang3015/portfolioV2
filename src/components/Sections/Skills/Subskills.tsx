@@ -18,7 +18,7 @@ export default function Subskills({ children, skillList }: SubskillsProps) {
     { opacity: 1, y: 0 },
     0.05,
     0.5,
-    true
+    true,
   );
   return (
     <motion.section
@@ -48,15 +48,15 @@ export default function Subskills({ children, skillList }: SubskillsProps) {
                 "flex justify-center items-center w-full text-center btn truncate text-clip",
                 {
                   "pointer-events-none": !skill.link,
-                }
+                },
               )}
             >
-              {skill.name}
               {skill.icon && (
                 <span>
                   <Icon aria-label={skill.name} icon={skill.icon} />
                 </span>
               )}
+              {skill.name}
             </motion.a>
           </motion.li>
         ))}

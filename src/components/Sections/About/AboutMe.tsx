@@ -34,7 +34,7 @@ export default function AboutMe() {
           <a href="https://www.lyft.com/">Lyft</a>
         </span>
         {` working on the Organic Traffic Team. I was able to work on everything from legacy code to the most modern stack. I was also a regular  contributor to Lyft’s internal design system and part of the Frontend Developer Experience group.
-            \nUnfortunately, in 2023 our entire team was dissolved as a result of layoffs. Since then, I've pursued a few personal projects, traveled, and skilled up my technical chops. For my next role, I'm looking for a place where we can use software to better people's lives in a meaningful way. `}
+            \nUnfortunately, in 2023 our entire team was affected by layoffs. Since then, I've pursued a few personal projects, traveled, and skilled up my technical chops. For my next role, I'm looking for a place where we can use software to better people's lives in a meaningful way. `}
         {
           <span>
             <button
